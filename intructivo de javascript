@@ -1,0 +1,56 @@
+Javascript 
+
+Metodos y propiedades de texto y ventanas emergentes:
+
+para escribir un texto en la pagina web.
+
+document.wirte("Hola esto es un texto");
+
+para invocar ventanas emergentes:
+
+var nombre = prompt("Ingresa aqui tu nombre");
+alert("tu nombre es " + nombre);
+
+Metodos y propiedades para Arrays:
+
+length, push, pop, unshift, shift
+
+los arrays se declaran de la siguiente manera:
+
+var numero=["1","2","3","4"];
+
+var numero = new array("1", "2", "3", "4");
+
+var numero = []; <-- array vacio
+
+Programación orientada a objetos.
+
+Ejemplo: 
+
+Propiedades:
+
+es todo lo que posee el objeto por ejemplo:
+
+class carro{
+
+var ruedas = 4;
+var motor = 1;
+var puertas = 4;
+var butacas = 5;
+
+}
+
+Metodos: es todo lo que puede hacer el objeto:
+
+class carro{
+
+var ruedas = 4;
+var motor = 1;
+var puertas = 4;
+var butacas = 5;
+ function acelerar(){
+
+}
+}
+
+

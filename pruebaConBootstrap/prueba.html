@@ -1,0 +1,434 @@
+<!doctype html>
+	<html lan="es" ng-app>
+
+	<head>
+		<TITLE>Johannes Vargas</TITLE>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.css" rel="stylesheet">	
+		<link href="css/estilos.css" rel="stylesheet">
+		<link href="css/estilosPersonales.css" rel="stylesheet">
+		<script src="js/jquery.js"></script>
+		<script src="js/funciones.js"></script>
+		<script src="js/calculadora.js"></script>
+		<script src="js/calculadora2.js"></script>
+		<script src="js/angular.js"></script>
+
+	</head>
+
+<body>
+
+<a name="inicio"></A>
+
+<!-- aqui comienza el HEADER -->
+<header class="header">
+	
+	<div class="container-fluid">
+
+		<script> beginingOfAll(); </script>
+	</div>
+
+</header> 
+<!--Aqui termina el HEADER-->
+
+<div id="body">
+
+	<main>
+
+{{"Hola " + " Mundo"}}
+
+<div class="col-md-6" id="contenedor1">  
+    
+    <h4 align="left" class="titulo">Enlaces #1</h4>
+    
+    <a href="https://www.google.co.ve/" target="_blank" class="buscadores" title="Google"><b id="google">Google</b></a><br><p class="olas" id="irGoogle">Ve a Google</p>
+    
+    <a href="https://espanol.yahoo.com/" target="_blank" class="buscadores"><b id="yahoo">Yahoo Search</b></a><br><p class="olas" id="irYahoo">Ve a Yahoo</p>
+    
+    <a href="https://es-la.facebook.com/" target="_blank" class="social"><b id="facebook">Facebook</b></a><br><p class="olas" id="irFacebook">Ve a Facebook</p>
+    
+    <a href="https://twitter.com/?lang=es" target="_blank" class="social"><b id="twitter">Twitter</b></a><br><p class="olas" id="irTwitter">Ve a Twitter</p>
+    
+    <a href="https://www.instagram.com/?hl=es" target="_blank" class="social"><b id="instagram">Instagram</b></a><br><p class="olas" id="irInsta">Ve a Instagram</p>
+
+    <input type="radio" name="redes" class="btn btn-success" id="social" value="Red Social"><b class="letra">Red Social</b>
+    
+    <input type="radio" name="redes" class="btn btn-success" id="buscadores" value="Buscadores"><b class="letra">Buscadores</b>
+
+</div>
+
+<!-- ###########################################################################################################-->
+
+<!--<div class="col-md-12">
+
+    <h4 align="left" class="titulo">Enlaces #2</h4>
+
+    <a href="https://www.google.co.ve/" target="_blank" class="buscadores2"><b>Google</b></a><br>
+    
+    <a href="https://espanol.yahoo.com/" target="_blank" class="buscadores2"><b>Yahoo Search</b></a><br>
+    
+    <a href="https://es-la.facebook.com/" target="_blank" class="social2"><b>Facebook</b></a><br>
+    
+    <a href="https://twitter.com/?lang=es" target="_blank" class="social2"><b>Twitter</b></a><br>
+    
+    <a href="https://www.instagram.com/?hl=es" target="_blank" class="social2"><b>Instagram</b></a><br>
+    
+
+ 	<button class="btn btn-primary" id="buscadores2"><b>Buscadores</b></p></button>
+    
+    <button class="btn btn-success" id="social2"><b>Red Social</b></button>
+
+</div> -->
+
+<!--###################################################################################################################-->
+
+<div class="col-md-12" id="img">
+
+ <!--   <h4 align="center" class="titulo">Enlaces #3</h4>	-->
+
+    <img id="pirulo" src="" width="20%">
+
+</div>
+
+<!--###################################################################################################################-->
+
+<div class="col-md-4">
+
+    <h4 align="left" class="titulo">Genesys</h4>
+   
+    <div class="col-md-12" id="noticia">Cuando Dios comenzó a crear el cielo y la tierra, la tierra no tenía forma, ni había en ella nada que tuviera vida. Las aguas estaban cubiertas por una gran oscuridad, pero sobre la superficie del agua se movía el espíritu de Dios.<br><br>
+    
+    <table>
+ 		
+ 		<td><button class="btn btn-warning" id="aumenta"><b>Aumentar</b></button></td>
+    
+    	<td><button class="btn btn-danger" id="disminuir"><b>Disminuir</b></button></td>
+
+    	<td><button class="btn btn-primary" id="lectura"><b>Lectura</b></button></td>
+
+    	<td><button class="btn btn-default" id="normal"><b>Normal</b></button></td>
+    
+    </table>
+	
+	</div>
+
+    
+    <div class="col-md-12" id="noticia2">Dijo entonces Dios: «¡Quiero que haya luz!» ¡Y al instante hubo luz! Al ver Dios la belleza de la luz, la apartó de la oscuridad y le puso por nombre «día». A la oscuridad la llamó «noche». Y cayó la noche, y llegó la mañana. Ése fue el primer día.<br><br>
+    
+    <table>
+ 	
+ 		<td><button class="btn btn-warning" id="aumenta2"><b>Aumentar</b></button></td>
+    
+    	<td><button class="btn btn-danger" id="disminuir2"><b>Disminuir</b></button></td>
+
+    	<td><button class="btn btn-primary" id="lectura2"><b>Lectura</b></button></td>
+
+    	<td><button class="btn btn-default" id="normal2"><b>Normal</b></button></td>
+	
+	</table>
+	
+	</div>
+
+    <div class="col-md-12" id="noticia3">Dijo entonces Dios: «Quiero que haya entre las aguas algo firme que las separe». ¡Y al instante se hizo así! Dios puso algo firme entre las aguas, y la mitad de las aguas quedó abajo y la otra mitad quedó arriba. Al ver la belleza del firmamento, Dios le puso por nombre «cielo». Y cayó la noche, y llegó la mañana. Ése fue el segundo día.<br><br>
+    
+    <table>
+ 		
+ 		<td><button class="btn btn-warning" id="aumenta3"><b>Aumentar</b></button></td>
+    
+    	<td><button class="btn btn-danger" id="disminuir3"><b>Disminuir</b></button></td>
+
+    	<td><button class="btn btn-primary" id="lectura3"><b>Lectura</b></button></td>
+
+    	<td><button class="btn btn-default" id="normal3"><b>Normal</b></button></td>
+    
+    </table>
+	
+	</div>    
+
+</div>
+
+<!--###################################################################################################################-->
+
+	<div id="redesSociales" class="col-md-12">
+
+		<div class="row"> 
+
+			<div class="col-md-4" align="center"><br><br>
+
+				<a href="https://www.facebook.com/OpsuOficial/" target="_blank"><img src="imagenes/facebook-logo.png" width="30%" TITLE="Haz click aqui para visitar nuestra pagina en Facebook" align="center"></a><br><br>
+
+			</div>
+
+			<div class="col-md-4" align="center"><br><br>
+
+				<a href="https://twitter.com/opsuoficial?lang=es" target="_blank"><img src="imagenes/twitter-logo.png" width="30%" TITLE="Haz click aqui para visitar nuestra pagina en Twitter" align="center"></a><br><br>
+
+			</div>
+
+			<div class="col-md-4" align="center"><br><br>
+
+				<a href="https://www.youtube.com/channel/UC3TH6vTj3P9uuJ6ZkmCorEw" target="_blank"><img src="imagenes/youtube.png" width="30%" TITLE="Haz click aqui para ver nuestro canal en Youtube" align="center"></a><br><br>
+
+			</div>
+
+		</div>
+
+	</div>
+
+<!--####################################################################################################################-->
+
+	<div class="col-md-12">
+
+		<div class="row"> 
+
+			<div class="col-md-4" align="center"><br><br>
+
+				<a href="https://www.facebook.com/johannesvargas14?fref=ts" target="_blank"><img src="imagenes/facebook-logo.png" width="30%" TITLE="Johannes Vargas Facebook!!" align="center"></a><br>
+			
+			</div>
+			
+			<div class="col-md-4" align="center"><br><br>
+			
+				<a href="https://twitter.com/johnnylobox" target="_blank"><img src="imagenes/twitter-logo.png" width="30%" TITLE="Johannes Vargas Twitter!!" align="center"></a><br>
+			
+			</div>
+
+			<div class="col-md-4" align="center"><br><br>
+
+				<a href="https://www.instagram.com/johnnylobox/" target="_blank"><img src="imagenes/instagram.png" width="30%" TITLE="Johannes Vargas Instagram!!" align="center"></a><br><br>
+
+			</div>
+			
+			</div><br>
+
+		</div>
+
+<!--####################################################################################################################-->
+
+	<div class="container" id="pictures">
+
+			<div class="col-md-4"><br><br>
+			
+				<img src="imagenes/Debian.png" width="50%" align="center" id="imagen1"><br><br>
+			
+			</div>
+		
+			<div class="col-md-4" ><br><br>
+			
+				<img src="imagenes/dbs.jpg" width="50%" align="center" id="imagen2"><br><br>
+			
+			</div>
+
+			<div class="col-md-4" ><br><br>
+			
+				<img src="imagenes/gokub.jpg" width="50%" align="center" id="imagen3"><br><br>
+			
+			</div>
+
+			<div class="col-md-4"><br><br>
+			
+				<img src="imagenes/asc3.jpg" width="50%" align="center" id="imagen4"><br><br>
+			
+			</div>
+		
+			<div class="col-md-4"><br><br>
+			
+				<img src="imagenes/banderavzla.jpg" width="50%" align="center" id="imagen5"><br><br>
+			
+			</div>
+
+			<div class="col-md-4" ><br><br>
+			
+				<img src="imagenes/roques.jpg" width="50%" align="center" id="imagen6"><br><br>
+			
+			</div>
+
+			<div class="col-md-12" align="center" id="botonera"><br><br>
+
+				<input type="button" class="btn btn-primary" id="aparecer" value="Aparecer">
+				<input type="button" class="btn btn-danger" id="desaparecer" value="Ocultar">
+				<input type="button" class="btn btn-success" id="agrandar" value="Aumentar">
+				<input type="button" class="btn btn-warning" id="low" value="Disminuir">
+				<input type="button" class="btn btn-default" id="basic" value="Normalizar">
+
+			</div>
+		
+	</div>
+
+
+<!--######################################################################################################################-->
+
+
+	<div class="col-md-12" id="pictures3">
+
+		
+			<div class="col-md-4" align="center"><br><br>
+			
+				<img src="imagenes/asc3.jpg" width="50%" align="center" id="imagen4"><br><br>
+			
+			</div>
+		
+			<div class="col-md-4" align="center"><br><br>
+			
+				<img src="imagenes/banderavzla.jpg" width="50%" align="center" id="imagen5"><br><br>
+			
+			</div>
+
+			<div class="col-md-4" align="center"><br><br>
+			
+				<img src="imagenes/roques.jpg" width="50%" align="center" id="imagen6"><br><br>
+			
+			</div>
+
+	</div>
+
+<!--<div class="container" align="center">
+
+			<div class="col-lg-12 col-md-6 col-sm-3">
+				<video id="video" width="" controls>
+  				<source src="../videos/VID-20160913-WA0009.mp4">
+  				<source src="../videos/VID-20160913-WA0009.OGG">
+				</video>
+			</div>
+	
+	</div> 	-->
+
+<!--####################################################################################################################-->	
+
+		<div id="pictures2" class="container">
+
+			Hola
+
+		</div>
+
+		<div id="contenedor" class="col-md-12">
+
+			<div class="container" id="formulario">
+
+				<h2 id="txt3">Welcome</h2>
+
+
+		<form class="form-horizontal">
+  
+		  <fieldset>
+		
+			<legend><b class="letra2">Completa tus datos<b></legend>
+    
+		 		<div class="form-group">
+      
+					<label for="inputEmail" class="col-lg-2 control-label"><b class="letra2">Usuario</b></label>
+      
+		      		<div class="col-lg-10">
+        
+		        	<input type="text" class="form-control" id="usuario" placeholder="Usuario">
+      
+		      		</div>
+
+		    	</div>
+
+		    	<div class="form-group">
+      		
+		      		<label for="inputPassword" class="col-lg-2 control-label"><b class="letra2">Nombre</b></label>
+      		
+		      		<div class="col-lg-10">
+        	
+		        	<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+
+		      		</div>
+    	
+		    	</div>
+    	
+		    	<div class="form-group">
+      		
+		      		<label for="textArea" class="col-lg-2 control-label"><b class="letra2">Comentario</b></label>
+      	
+		      		<div class="col-lg-10">
+        	
+		        	<textarea class="form-control" rows="3" id="comentario" placeholder="Ingresa un comentario"></textarea>
+        	
+		        	<span class="help-block"><b class="letra2">Ingresa tu comentario aqui!</b></span>
+      		
+		      		</div>
+    		
+		    	</div>
+    
+		    	<div class="form-group">
+      	
+		      		<div class="col-lg-10 col-lg-offset-2">
+        	
+		        	<button type="reset" class="btn btn-default">Cancel</button>
+        	
+		        	<button type="submit" class="btn btn-primary" onClick="Validar()">Enviar</button>
+      		
+		      		</div>
+    	
+		    	</div>
+
+		  	</fieldset>
+
+		</form>
+
+			</div>
+
+		</div>
+
+			<div align="center"> 
+				<a href="#inicio" title="Presiona para ir al inicio de la pagina" class="btn btn-primary" align="center"><b>Volver al inicio</b></a>	
+
+		<!--		<a href="" onClick="calculo()" class="btn btn-success" title="Haz clack aqui para realizar unn calculo matemático"><b>Calculadora</b></a>		-->
+			</div> 
+
+	</main>
+
+</div>
+
+	<footer class="footer">
+		
+		<DIV class="container">
+		
+			<p class="hiro2">Johannes Vargas<BR/>Caracas-Venezuela</p>
+
+		<!--	<p>Hoy es: <br> <script> tiempo(); </script></p><br> 		-->
+		
+		</DIV>	
+
+	</footer>	
+
+		<script>
+
+			alertas();
+
+			Esplandor();
+
+			htmlEdit();
+
+			i();
+			
+	//		Cambio();
+			
+			textoParpadeanteEfectos();
+		
+			hideElementos(); 
+
+			Prueba(); 
+
+			Formulario(); 
+
+	//		Banner(); 
+
+			resaltadores(); 
+
+			resaltadores2(); 
+
+			Fuentes();
+
+		</script>
+
+		<script src="js/bootstrap.js"></script>
+		
+		<script src="js/npm.js"></script> 
+	
+	</body>
+
+</HTML>

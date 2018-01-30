@@ -92,7 +92,7 @@ Funciones libreria Jquey
 
 .hover() = hace un efecto de mouseover y mouseout al mismo tiempo
 
-.toggle() = 
+.toggle() = Esto es una prueba de git
 
 .css() = permite capturar, guardar, leer la propiedad de un elemento que puede tener una pagina web y tambien puede cambiar una propiedad css que tenga la misma.
 Sintaxis {
@@ -129,6 +129,8 @@ load(), resize(), scroll(), unload()
 Eventos de formulario
 
 submit(), reset(), change(), focus(), blur()
+
+
 
 
 
